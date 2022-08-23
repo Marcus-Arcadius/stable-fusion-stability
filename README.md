@@ -9,7 +9,7 @@ $ git clone https://github.com/gladiaio/stable-fusion-stability.git
 $ cd stable-fusion-stability 
 $ docker build -t stability-api -f Dockerfile .
 ````
-visit : https://beta.dreamstudio.ai/membership to get the API key`
+visit : https://beta.dreamstudio.ai/membership to get the API key
 ````
 $ docker run -it -e STABILITY_KEY=sk-****** -v $PWD:/output stability-api
 ````
