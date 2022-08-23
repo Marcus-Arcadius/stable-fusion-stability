@@ -3,6 +3,11 @@
 a simple to run fusion staiblity API container
 
 to run :
+````
+docker run -it -e STABILITY_KEY=sk-****** -H 512 -W 512 -v $PWD:/output gladiaio/stable-diffusion-sdk
+````
+
+or
 
 ````
 $ git clone https://github.com/gladiaio/stable-fusion-stability.git
